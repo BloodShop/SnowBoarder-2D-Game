@@ -1,6 +1,8 @@
 # SnowBoarder-2D-Game
 SnowBoarder 2D game; Cinemachine, Surface Effector 2D, Triggers, SceneManagement etc.
 
+<img width="572" alt="McDriver3" src="https://user-images.githubusercontent.com/23366804/174949946-8913ec08-8ccb-47ae-88cc-fe341d7bb446.png">
+
 # Game Mechanics We Need
 1. Move along the track
 2. Rotate forwards and backwards
@@ -10,10 +12,11 @@ SnowBoarder 2D game; Cinemachine, Surface Effector 2D, Triggers, SceneManagement
 6. Crash detection which restarts the level
 
 # Game Design
-
 1. Player Experience: Smooth, relaxing
 2. Core Mechanic: Don’t crash
 3. Game Loop:Reach the end to win
+
+<img width="572" alt="McDriver1" src="https://user-images.githubusercontent.com/23366804/174949950-3e860400-b091-4ff9-855f-9e57cfec984f.png">
 
 # What Is Cinemachine?
 Cinemachine is a powerful package that lets us:
@@ -39,6 +42,8 @@ a. Invoke
 b. Coroutines
 Invoke is a bit easier to understand but not as powerful. 
 It also uses string reference which are clumsy.
+
+<img width="572" alt="McDriver2" src="https://user-images.githubusercontent.com/23366804/174949951-75b7d2e8-4ac0-4907-ba36-d0d84178216e.png">
 
 # Important To Tune Now And Then
 Keep your game “*playable*” as much as possible
